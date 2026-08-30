@@ -52,3 +52,59 @@ button { font: inherit; }
 .download-actions .button-quiet { color: #fff8ec; border-color: #ffffff55; }
 @media (max-width: 900px) { .variant-grid { grid-template-columns: repeat(2, 1fr); }.download-row { align-items: flex-start; flex-direction: column; }.download-actions { width: 100%; } }
 @media (max-width: 620px) { .variant-grid { grid-template-columns: 1fr; margin-top: 28px; }.variant-card { min-height: auto; }.variant-card h3 { margin-top: 24px; }.download-row { padding: 22px 19px; }.download-actions { flex-direction: column; width: 100%; }.download-actions .button { justify-content: center; } }
+
+/* Improve readability and prevent the festival label from collapsing into a vertical strip. */
+.desktop-nav { font-size: 16px; }
+.nav-download { font-size: 15px; padding: 13px 19px; }
+.eyebrow { font-size: 12px; letter-spacing: .18em; }
+.hero-lead { font-size: 17px; }
+.hero-meta { font-size: 13px; }
+.button { font-size: 14px; }
+.section-intro { font-size: 17px; }
+.step-number { font-size: 13px; }
+.step-label strong { font-size: 22px; }
+.step-label small { font-size: 15px; }
+.step-arrow { font-size: 22px; }
+.visual-topline { font-size: 12px; }
+.visual-card-back span { font-size: 12px; }
+.visual-card-front span { font-size: 13px; }
+.visual-caption { font-size: 14px; }
+.festival-tab { font-size: 14px; padding: 12px 16px; }
+.image-label { font-size: 12px; }
+.feature-kicker { flex-wrap: wrap; font-size: 14px; letter-spacing: .06em; }
+.feature-kicker > span:first-child { width: 24px; height: 4px; flex: 0 0 24px; }
+.feature-kicker .feature-kicker-text { width: auto; height: auto; display: inline-block; padding: 8px 14px; background: #f2e7d7; border: 1px solid #ddcdbb; border-radius: 8px; color: var(--navy); font-size: 15px; font-weight: 800; letter-spacing: .06em; }
+.deck-feature h3 { display: inline-block; padding: 12px 18px 15px; background: #fff1dd; border-left: 6px solid var(--orange); border-radius: 10px; }
+.deck-feature-copy > p { font-size: 17px; line-height: 1.9; }
+.pair-line { font-size: 16px; }
+.pair-line b { font-size: 18px; }
+.pair-line small { font-size: 12px; }
+.rule-card-main > p:not(.eyebrow) { font-size: 17px; }
+.rule-card-side strong { font-size: 15px; }
+.rule-card-side p { font-size: 14px; }
+.rule-notes strong { font-size: 16px; }
+.rule-notes p { font-size: 14px; }
+.variant-card h3 { font-size: 22px; }
+.variant-card p { font-size: 15px; }
+.download-row strong { font-size: 16px; }
+.download-row > div:first-child span { font-size: 14px; }
+.footer p, .footer > a { font-size: 13px; }
+@media (max-width: 620px) {
+  .nav-download { font-size: 12px; }
+  .hero-lead { font-size: 15px; }
+  .step-label strong { font-size: 19px; }
+  .step-label small { font-size: 13px; }
+  .festival-tab { font-size: 13px; padding: 9px 12px; }
+  .deck-feature h3 { font-size: 37px; padding: 10px 13px 13px; }
+  .feature-kicker .feature-kicker-text { font-size: 13px; padding: 7px 10px; }
+  .deck-feature-copy > p { font-size: 15px; }
+  .pair-line { font-size: 15px; }
+  .pair-line b { font-size: 17px; }
+  .pair-line small { font-size: 12px; }
+  .rule-card-main > p:not(.eyebrow) { font-size: 15px; }
+  .rule-card-side p { font-size: 13px; }
+  .rule-notes p { font-size: 13px; }
+  .variant-card h3 { font-size: 20px; }
+  .variant-card p { font-size: 14px; }
+  .footer p { font-size: 13px; }
+}
