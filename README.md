@@ -64,6 +64,10 @@ npm run dev
 
 開啟 `http://localhost:3000/` 即可查看遊戲介紹網站。
 
+## GitHub Pages / 靜態使用
+
+專案根目錄另外提供可直接開啟的 `index.html`。若使用 GitHub Pages，請將整個專案上傳，並在 Pages 設定中選擇 `main` 分支與 `/ (root)` 資料夾；牌卡圖片與 PDF 會由 `public` 資料夾載入。
+
 ## 專案檢查
 
 ```bash
